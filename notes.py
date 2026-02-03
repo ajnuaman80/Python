@@ -155,3 +155,21 @@ print(list)
 marks.remove(76) #76 ki first occurance ko delete krega
 list.pop(3) #3rd index ko delete krega
 
+#Tuples
+#A built in data type that lets us create immutable sequence of values
+
+#immutable
+list = [2, 3, 4, 6, 78] 
+
+tup = (2, 1, 3, 1, 67, 55, 19, 18)
+print(tup[3])
+
+tupp = ()
+print(type(tupp))
+
+tu = (1) #yaha python samjhega apne bass ek integer liye h
+print(type(tu)) #thats why comma lagana important h
+
+print(tup[1:3])
+print(tup.index(19)) #this will give us the index of the first occurence of the integer 19 in the tupple 
+print(tup.count(1)) #thiss will give us the count of 1 in the tupple
